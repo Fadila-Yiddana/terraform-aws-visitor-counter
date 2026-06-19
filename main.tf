@@ -13,3 +13,13 @@ resource "aws_dynamodb_table" "visitor_counter" {
     type = "S"
   }
 }
+
+resource "aws_lambda_function" "visitor_counter" {
+  function_name = "visitor-counter"
+
+  role    = "arn:aws:iam::123456789012:role/lambda-role"
+  handler = "visitor_counter.lambda_handler"
+  runtime = "python3.12"
+
+  filename = "visitor_counter.zip"
+}
