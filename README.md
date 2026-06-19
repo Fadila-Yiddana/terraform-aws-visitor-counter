@@ -55,6 +55,8 @@ DynamoDB
 
 ✅ API Gateway Configured
 
+✅ Terraform Configuration Validated
+
 🔄 CloudFront Integration Planned
 
 🔄 Deployment Pending (AWS Lab Environment Required)
@@ -71,25 +73,31 @@ Through this project I aim to strengthen my understanding of:
 - AWS Lambda
 - DynamoDB
 - CloudFront
+  
 
 ## Future Improvements
 
-- Add HTTPS using AWS Certificate Manager
-- Configure a custom domain
-- Implement CI/CD deployment
-- Add monitoring and logging
-- Improve security controls
+* Add CloudFront distribution
+* Configure HTTPS using AWS Certificate Manager
+* Add custom domain integration
+* Implement CI/CD deployment pipeline
+* Add monitoring with Amazon CloudWatch
+* Improve IAM security controls
+
+
 
 
 ## Deployment Notes
 
-This project is currently focused on architecture design and Infrastructure as Code (IaC) implementation using Terraform.
+This project focuses on learning serverless architecture and Infrastructure as Code (IaC) using Terraform.
 
-Deployment will be completed in a future AWS lab environment using temporary cloud credentials.
+The Terraform configuration has been created and validated locally. Actual deployment requires valid AWS credentials or access to an AWS lab environment.
 
-Current Terraform components include:
+Current Terraform resources include:
 
-- Amazon S3
-- Amazon DynamoDB
-- AWS Lambda
-- Amazon API Gateway
+* Amazon S3
+* Amazon DynamoDB
+* AWS Lambda
+* Amazon API Gateway
+
+Future enhancements include CloudFront integration, HTTPS configuration, and deployment in a cloud lab environment.
