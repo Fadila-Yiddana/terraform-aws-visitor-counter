@@ -23,3 +23,7 @@ resource "aws_lambda_function" "visitor_counter" {
 
   filename = "visitor_counter.zip"
 }
+
+resource "aws_api_gateway_rest_api" "visitor_api" {
+  name = "visitor-counter-api"
+}
