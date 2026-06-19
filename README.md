@@ -47,6 +47,8 @@ DynamoDB
 
 ✅ Lambda Function Designed
 
+✅ API Gateway Designed
+
 🔄 Terraform Configuration In Progress
 
 🔄 Deployment Pending
