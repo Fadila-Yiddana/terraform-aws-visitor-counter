@@ -42,13 +42,21 @@ DynamoDB
 ## Project Status
 
 ✅ Repository Created
+
 ✅ Architecture Diagram Created
+
 ✅ Terraform Structure Created
+
 ✅ S3 Bucket Configured
+
 ✅ DynamoDB Table Configured
+
 ✅ Lambda Function Configured
+
 ✅ API Gateway Configured
+
 🔄 CloudFront Integration Planned
+
 🔄 Deployment Pending (AWS Lab Environment Required)
 
 
