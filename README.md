@@ -45,6 +45,8 @@ DynamoDB
 
 ✅ Architecture Diagram Created
 
+✅ Lambda Function Designed
+
 🔄 Terraform Configuration In Progress
 
 🔄 Deployment Pending
