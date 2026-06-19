@@ -42,16 +42,15 @@ DynamoDB
 ## Project Status
 
 ✅ Repository Created
-
 ✅ Architecture Diagram Created
+✅ Terraform Structure Created
+✅ S3 Bucket Configured
+✅ DynamoDB Table Configured
+✅ Lambda Function Configured
+✅ API Gateway Configured
+🔄 CloudFront Integration Planned
+🔄 Deployment Pending (AWS Lab Environment Required)
 
-✅ Lambda Function Designed
-
-✅ API Gateway Designed
-
-🔄 Terraform Configuration In Progress
-
-🔄 Deployment Pending
 
 ## Learning Goals
 
@@ -72,3 +71,17 @@ Through this project I aim to strengthen my understanding of:
 - Implement CI/CD deployment
 - Add monitoring and logging
 - Improve security controls
+
+
+## Deployment Notes
+
+This project is currently focused on architecture design and Infrastructure as Code (IaC) implementation using Terraform.
+
+Deployment will be completed in a future AWS lab environment using temporary cloud credentials.
+
+Current Terraform components include:
+
+- Amazon S3
+- Amazon DynamoDB
+- AWS Lambda
+- Amazon API Gateway
