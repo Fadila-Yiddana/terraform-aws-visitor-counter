@@ -52,6 +52,32 @@ DynamoDB
 | **Terraform** | Provisions and manages the entire AWS infrastructure as Infrastructure as Code (IaC). |
 
 
+
+## Project Structure
+
+terraform-aws-visitor-counter/
+
+├── Diagram/
+│   └── visitor-counter-architecture.png
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── lambda/
+│   └── index.py
+│
+├── terraform/
+│   ├── main.tf
+│   ├── provider.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── terraform.tfvars
+│
+└── README.md
+
+
 ## Project Status
 
 ✅ Repository Created
