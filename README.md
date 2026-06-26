@@ -12,7 +12,7 @@ The project showcases serverless application design, cloud integration, and Terr
 
 ## Architecture
 
-![Visitor Counter Architecture](Diagrams/AWS-visitor-counter.png)
+![Visitor Counter Architecture](Diagrams/AWS-visitor-counter.png) 
 
 ## Architecture Flow
 
