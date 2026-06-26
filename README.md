@@ -92,6 +92,22 @@ terraform-aws-visitor-counter/
 
 
 
+## Terraform Workflow
+
+```bash
+terraform init
+
+terraform fmt
+
+terraform validate
+
+terraform plan
+
+terraform apply
+
+
+
+
 ## Project Status
 
 ✅ Repository Created
