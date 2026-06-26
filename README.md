@@ -94,7 +94,7 @@ terraform-aws-visitor-counter/
 
 ## Terraform Workflow
 
-```bash
+
 terraform init
 
 terraform fmt
