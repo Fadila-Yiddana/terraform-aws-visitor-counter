@@ -10,9 +10,9 @@ When a visitor opens the website, the frontend sends a request to Amazon API Gat
 
 The project showcases serverless application design, cloud integration, and Terraform best practices.
 
-## Architecture Diagram
+## Architecture
 
-https://github.com/Fadila-Yiddana/terraform-aws-visitor-counter/blob/main/Diagrams/AWS-visitor-counter.png
+![Visitor Counter Architecture](Diagrams/AWS-visitor-counter.png)
 
 ## Architecture Flow
 
