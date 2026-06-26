@@ -126,47 +126,47 @@ terraform apply
 
 ✅ Terraform Configuration Validated
 
-🔄 CloudFront Integration Planned
+✅  CloudFront Integration completed
 
 🔄 Deployment Pending (AWS Lab Environment Required)
 
 
-## Learning Goals
+## Skills Demonstrated
 
-Through this project I aim to strengthen my understanding of:
-
-- Serverless Architecture
-- Infrastructure as Code (IaC)
-- Terraform
-- API Gateway
+- Infrastructure as Code (Terraform)
+- Serverless Application Architecture
+- Amazon S3 Static Website Hosting
+- Amazon CloudFront
+- Amazon API Gateway
 - AWS Lambda
-- DynamoDB
-- CloudFront
+- Amazon DynamoDB
+- IAM Permissions
+- Git Version Control
+- Cloud Architecture Documentation
   
 
 ## Future Improvements
 
-* Add CloudFront distribution
-* Configure HTTPS using AWS Certificate Manager
-* Add custom domain integration
-* Implement CI/CD deployment pipeline
-* Add monitoring with Amazon CloudWatch
-* Improve IAM security controls
+- Configure a custom domain with Amazon Route 53
+- Secure the application using AWS Certificate Manager (ACM)
+- Build a CI/CD pipeline with GitHub Actions
+- Enable monitoring with Amazon CloudWatch
+- Improve IAM policies using least-privilege principles
+- Add automated Terraform testing
 
 
 
 
 ## Deployment Notes
 
-This project focuses on learning serverless architecture and Infrastructure as Code (IaC) using Terraform.
+The infrastructure has been fully developed and validated using Terraform.
 
-The Terraform configuration has been created and validated locally. Actual deployment requires valid AWS credentials or access to an AWS lab environment.
+Deployment is currently pending access to an AWS account with valid credentials. This repository was intentionally designed so that infrastructure can be deployed in the future without requiring code changes.
 
-Current Terraform resources include:
+Current Terraform workflow completed:
 
-* Amazon S3
-* Amazon DynamoDB
-* AWS Lambda
-* Amazon API Gateway
-
-Future enhancements include CloudFront integration, HTTPS configuration, and deployment in a cloud lab environment.
+- terraform init ✅
+- terraform fmt ✅
+- terraform validate ✅
+- terraform plan ⏳ (Pending valid AWS credentials)
+- terraform apply ⏳ (Pending valid AWS credentials)
