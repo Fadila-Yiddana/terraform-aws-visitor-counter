@@ -55,28 +55,31 @@ DynamoDB
 
 ## Project Structure
 
-terraform-aws-visitor-counter/
 
 ├── Diagram/
-│   └── visitor-counter-architecture.png
+      └── visitor-counter-architecture.png
+      
 
 
 ├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+      ├── index.html
+      ├── style.css
+      └── script.js
+      
 
 
 ├── lambda/
-│   └── index.py
+     └── index.py
+     
 
 
 ├── terraform/
-│   ├── main.tf
-│   ├── provider.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   └── terraform.tfvars
+    ├── main.tf
+    ├── provider.tf
+    ├── variables.tf
+    ├── outputs.tf
+    └── terraform.tfvars
+
 
 
 └── README.md
