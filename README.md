@@ -41,7 +41,9 @@ DynamoDB
 
 ## AWS Services Used
 
-|     Service                    |              Purpose         |
+|     Service                     |              Purpose         |
+
+
 
 | Amazon S3                     | Hosts the static website     |
 
