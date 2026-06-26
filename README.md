@@ -12,11 +12,7 @@ The project showcases serverless application design, cloud integration, and Terr
 
 ## Architecture Diagram
 
-The architecture diagram for this project can be found in the `diagrams` folder.
-
-File:
-
-- visitor-counter-architecture.png
+https://github.com/Fadila-Yiddana/terraform-aws-visitor-counter/blob/main/Diagrams/AWS-visitor-counter.png
 
 ## Architecture Flow
 
