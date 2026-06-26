@@ -17,16 +17,27 @@ https://github.com/Fadila-Yiddana/terraform-aws-visitor-counter/blob/main/Diagra
 ## Architecture Flow
 
 Visitor
+
 ↓
+
 CloudFront
+
 ↓
+
 S3 Static Website
+
 ↓
+
 API Gateway
+
 ↓
+
 Lambda
+
 ↓
+
 DynamoDB
+
 
 ## AWS Services Used
 
