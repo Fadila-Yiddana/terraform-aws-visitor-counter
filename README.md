@@ -57,11 +57,13 @@ DynamoDB
 
 
 ├── Diagram/
-      └── visitor-counter-architecture.png
+
+      └── https://github.com/Fadila-Yiddana/terraform-aws-visitor-counter/blob/main/Diagrams/AWS-visitor-counter.png
       
 
 
 ├── frontend/
+
       ├── index.html
       ├── style.css
       └── script.js
@@ -69,11 +71,13 @@ DynamoDB
 
 
 ├── lambda/
+
      └── index.py
      
 
 
 ├── terraform/
+
     ├── main.tf
     ├── provider.tf
     ├── variables.tf
@@ -83,6 +87,7 @@ DynamoDB
 
 
 └── README.md
+
 
 
 ## Project Status
