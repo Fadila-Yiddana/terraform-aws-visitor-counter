@@ -41,23 +41,15 @@ DynamoDB
 
 ## AWS Services Used
 
-|     Service                     |              Purpose         |
-
-
-
-| Amazon S3                     | Hosts the static website     |
-
-| Amazon CloudFront             | Delivers website content globally |
-
-| Amazon API Gateway            | Exposes the backend API |
-
-| AWS Lambda                    | Processes visitor count requests |
-
-| Amazon DynamoDB               | Stores visitor count |
-
-| AWS IAM                       | Manages permissions |
-
-| Terraform                     | Provisions the infrastructure |
+| AWS Service | Purpose |
+|-------------|---------|
+| **Amazon S3** | Hosts the static website files (HTML, CSS, JavaScript). |
+| **Amazon CloudFront** | Delivers website content globally with low latency and improved performance. |
+| **Amazon API Gateway** | Provides an HTTP endpoint for the frontend to communicate with the backend. |
+| **AWS Lambda** | Executes the backend logic to retrieve and update the visitor count. |
+| **Amazon DynamoDB** | Stores and manages the website visitor count. |
+| **AWS IAM** | Manages permissions and access control for AWS resources. |
+| **Terraform** | Provisions and manages the entire AWS infrastructure as Infrastructure as Code (IaC). |
 
 
 ## Project Status
