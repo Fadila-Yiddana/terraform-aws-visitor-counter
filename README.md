@@ -14,6 +14,15 @@ The project showcases serverless application design, cloud integration, and Terr
 
 ![Visitor Counter Architecture](Diagrams/AWS-visitor-counter.png) 
 
+### Request Flow
+
+1. A visitor opens the static website hosted on Amazon S3.
+2. Amazon CloudFront serves the website with low latency.
+3. JavaScript sends a request to Amazon API Gateway.
+4. API Gateway invokes an AWS Lambda function.
+5. Lambda reads and updates the visitor count in Amazon DynamoDB.
+6. The updated visitor count is returned to the website and displayed to the user.
+
 ## Architecture Flow
 
 Visitor
