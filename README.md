@@ -59,22 +59,26 @@ terraform-aws-visitor-counter/
 
 ├── Diagram/
 │   └── visitor-counter-architecture.png
-│
+
+
 ├── frontend/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
-│
+
+
 ├── lambda/
 │   └── index.py
-│
+
+
 ├── terraform/
 │   ├── main.tf
 │   ├── provider.tf
 │   ├── variables.tf
 │   ├── outputs.tf
 │   └── terraform.tfvars
-│
+
+
 └── README.md
 
 
