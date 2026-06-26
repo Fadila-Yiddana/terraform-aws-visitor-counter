@@ -58,7 +58,7 @@ DynamoDB
 
 ├── Diagram/
 
-      └── https://github.com/Fadila-Yiddana/terraform-aws-visitor-counter/blob/main/Diagrams/AWS-visitor-counter.png
+      └──  visitor-counter-architecture.png
       
 
 
