@@ -1,12 +1,14 @@
 # Terraform AWS Visitor Counter
 
-A Terraform project demonstrating a serverless AWS visitor counter application using S3, CloudFront, API Gateway, Lambda, and DynamoDB.
+This project provisions a serverless visitor counter application on AWS using Terraform. It combines Amazon S3 for static website hosting, Amazon API Gateway, AWS Lambda, and Amazon DynamoDB to build a fully serverless architecture that records and displays website visitor counts.
 
 ## Project Overview
 
-This project demonstrates how Infrastructure as Code (IaC) can be used to provision a serverless application on AWS.
+This project demonstrates how multiple AWS services can be integrated into a serverless application using Infrastructure as Code (Terraform).
 
-The application tracks website visitors by storing and updating a visitor count in DynamoDB through a Lambda function exposed by API Gateway.
+When a visitor opens the website, the frontend sends a request to Amazon API Gateway. API Gateway invokes an AWS Lambda function, which reads and updates the visitor count stored in Amazon DynamoDB before returning the updated count to the website.
+
+The project showcases serverless application design, cloud integration, and Terraform best practices.
 
 ## Architecture Diagram
 
