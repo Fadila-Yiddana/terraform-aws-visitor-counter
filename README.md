@@ -55,6 +55,8 @@ DynamoDB
 
 ## Project Structure
 
+terraform-aws-visitor-counter/
+
 
 ├── Diagram/
 
