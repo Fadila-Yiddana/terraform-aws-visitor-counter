@@ -44,12 +44,19 @@ DynamoDB
 |     Service                    |              Purpose         |
 
 | Amazon S3                     | Hosts the static website     |
+
 | Amazon CloudFront             | Delivers website content globally |
+
 | Amazon API Gateway            | Exposes the backend API |
+
 | AWS Lambda                    | Processes visitor count requests |
+
 | Amazon DynamoDB               | Stores visitor count |
+
 | AWS IAM                       | Manages permissions |
+
 | Terraform                     | Provisions the infrastructure |
+
 
 ## Project Status
 
