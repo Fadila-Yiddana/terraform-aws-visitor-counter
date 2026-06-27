@@ -137,7 +137,7 @@ terraform apply
 
 ✅  CloudFront Integration completed
 
-🔄 Deployment Pending (AWS Lab Environment Required)
+✅ Deployed 
 
 
 ## Skills Demonstrated
@@ -168,14 +168,15 @@ terraform apply
 
 ## Deployment Notes
 
-The infrastructure has been fully developed and validated using Terraform.
+This project was developed as part of my hands-on cloud engineering portfolio using Terraform and AWS.
 
-Deployment is currently pending access to an AWS account with valid credentials. This repository was intentionally designed so that infrastructure can be deployed in the future without requiring code changes.
+The infrastructure was successfully deployed and tested in a cloud training environment during my AWS training at AmaliTech Ghana. As the training lab environments were temporary, the deployed resources were terminated after the lab sessions expired.
 
-Current Terraform workflow completed:
+The Terraform configuration has been validated locally and is deployment-ready. It can be provisioned in any AWS account with valid credentials by running:
 
-- terraform init ✅
-- terraform fmt ✅
-- terraform validate ✅
-- terraform plan ⏳ (Pending valid AWS credentials)
-- terraform apply ⏳ (Pending valid AWS credentials)
+```bash
+terraform init
+terraform plan
+terraform apply
+```
+
